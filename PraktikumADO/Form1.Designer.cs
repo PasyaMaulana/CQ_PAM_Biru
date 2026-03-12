@@ -35,6 +35,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtHasil = new System.Windows.Forms.TextBox();
             this.btnHitungDsn = new System.Windows.Forms.Button();
+            this.btnUpdateDsn = new System.Windows.Forms.Button();
+            this.btnInsertProdi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnConnect
@@ -74,7 +76,7 @@
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnUpdate.TabIndex = 3;
-            this.btnUpdate.Text = "Update";
+            this.btnUpdate.Text = "Update Mhs";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
@@ -107,11 +109,32 @@
             this.btnHitungDsn.UseVisualStyleBackColor = true;
             this.btnHitungDsn.Click += new System.EventHandler(this.btnHitungDsn_Click);
             // 
+            // btnUpdateDsn
+            // 
+            this.btnUpdateDsn.Location = new System.Drawing.Point(291, 287);
+            this.btnUpdateDsn.Name = "btnUpdateDsn";
+            this.btnUpdateDsn.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdateDsn.TabIndex = 7;
+            this.btnUpdateDsn.Text = "Update Dsn";
+            this.btnUpdateDsn.UseVisualStyleBackColor = true;
+            this.btnUpdateDsn.Click += new System.EventHandler(this.btnUpdateDsn_Click);
+            // 
+            // btnInsertProdi
+            // 
+            this.btnInsertProdi.Location = new System.Drawing.Point(382, 285);
+            this.btnInsertProdi.Name = "btnInsertProdi";
+            this.btnInsertProdi.Size = new System.Drawing.Size(75, 23);
+            this.btnInsertProdi.TabIndex = 8;
+            this.btnInsertProdi.Text = "Insert Prodi";
+            this.btnInsertProdi.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnInsertProdi);
+            this.Controls.Add(this.btnUpdateDsn);
             this.Controls.Add(this.btnHitungDsn);
             this.Controls.Add(this.txtHasil);
             this.Controls.Add(this.label1);
@@ -136,6 +159,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtHasil;
         private System.Windows.Forms.Button btnHitungDsn;
+        private System.Windows.Forms.Button btnUpdateDsn;
+        private System.Windows.Forms.Button btnInsertProdi;
     }
 }
 

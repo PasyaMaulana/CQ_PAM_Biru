@@ -134,5 +134,10 @@ namespace PraktikumADO
         {
 
         }
+
+        private void btnUpdateDsn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
