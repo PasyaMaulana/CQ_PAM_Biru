@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Linq.Expressions;
 
 namespace PraktikumADO
 {
@@ -62,7 +63,25 @@ namespace PraktikumADO
 
         private void btnHitungMhs_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Koneksi();
+                conn.Open();
 
+                string query = "SELECT COUNT(*) FROM Mahasiswa";
+
+                cmd = new SqlCommand(query, conn);
+
+                int jumlah = (int)cmd.ExecuteScalar();
+
+                txtHasil.Text = jumlah.ToString();
+
+                conn.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnHitungMK_Click(object sender, EventArgs e)
