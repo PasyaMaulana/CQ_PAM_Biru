@@ -42,7 +42,7 @@
             // btnConnect
             // 
             this.btnConnect.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnConnect.Location = new System.Drawing.Point(103, 258);
+            this.btnConnect.Location = new System.Drawing.Point(63, 258);
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(75, 23);
             this.btnConnect.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             // btnHitungMhs
             // 
-            this.btnHitungMhs.Location = new System.Drawing.Point(199, 258);
+            this.btnHitungMhs.Location = new System.Drawing.Point(183, 258);
             this.btnHitungMhs.Name = "btnHitungMhs";
             this.btnHitungMhs.Size = new System.Drawing.Size(75, 23);
             this.btnHitungMhs.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             // btnHitungMK
             // 
-            this.btnHitungMK.Location = new System.Drawing.Point(291, 258);
+            this.btnHitungMK.Location = new System.Drawing.Point(459, 258);
             this.btnHitungMK.Name = "btnHitungMK";
             this.btnHitungMK.Size = new System.Drawing.Size(75, 23);
             this.btnHitungMK.TabIndex = 2;
@@ -72,7 +72,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(382, 258);
+            this.btnUpdate.Location = new System.Drawing.Point(320, 332);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnUpdate.TabIndex = 3;
@@ -101,7 +101,7 @@
             // 
             // btnHitungDsn
             // 
-            this.btnHitungDsn.Location = new System.Drawing.Point(199, 287);
+            this.btnHitungDsn.Location = new System.Drawing.Point(320, 258);
             this.btnHitungDsn.Name = "btnHitungDsn";
             this.btnHitungDsn.Size = new System.Drawing.Size(75, 23);
             this.btnHitungDsn.TabIndex = 6;
@@ -111,17 +111,17 @@
             // 
             // btnUpdateMK
             // 
-            this.btnUpdateMK.Location = new System.Drawing.Point(291, 287);
+            this.btnUpdateMK.Location = new System.Drawing.Point(459, 332);
             this.btnUpdateMK.Name = "btnUpdateMK";
             this.btnUpdateMK.Size = new System.Drawing.Size(75, 23);
             this.btnUpdateMK.TabIndex = 7;
             this.btnUpdateMK.Text = "Update MK";
             this.btnUpdateMK.UseVisualStyleBackColor = true;
-            this.btnUpdateMK.Click += new System.EventHandler(this.btnHitungMK_Click);
+            this.btnUpdateMK.Click += new System.EventHandler(this.btnUpdateMK_Click);
             // 
             // btnInsertProdi
             // 
-            this.btnInsertProdi.Location = new System.Drawing.Point(382, 285);
+            this.btnInsertProdi.Location = new System.Drawing.Point(183, 332);
             this.btnInsertProdi.Name = "btnInsertProdi";
             this.btnInsertProdi.Size = new System.Drawing.Size(75, 23);
             this.btnInsertProdi.TabIndex = 8;
