@@ -129,5 +129,10 @@ namespace PraktikumADO
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void btnHitungDsn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

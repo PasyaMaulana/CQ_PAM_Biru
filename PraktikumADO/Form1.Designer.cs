@@ -34,6 +34,7 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtHasil = new System.Windows.Forms.TextBox();
+            this.btnHitungDsn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnConnect
@@ -96,11 +97,22 @@
             this.txtHasil.TabIndex = 5;
             this.txtHasil.TextChanged += new System.EventHandler(this.txtHasil_TextChanged);
             // 
+            // btnHitungDsn
+            // 
+            this.btnHitungDsn.Location = new System.Drawing.Point(199, 287);
+            this.btnHitungDsn.Name = "btnHitungDsn";
+            this.btnHitungDsn.Size = new System.Drawing.Size(75, 23);
+            this.btnHitungDsn.TabIndex = 6;
+            this.btnHitungDsn.Text = "Hitung Dsn";
+            this.btnHitungDsn.UseVisualStyleBackColor = true;
+            this.btnHitungDsn.Click += new System.EventHandler(this.btnHitungDsn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnHitungDsn);
             this.Controls.Add(this.txtHasil);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnUpdate);
@@ -123,6 +135,7 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtHasil;
+        private System.Windows.Forms.Button btnHitungDsn;
     }
 }
 
