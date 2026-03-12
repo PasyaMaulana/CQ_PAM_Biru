@@ -137,7 +137,7 @@ namespace PraktikumADO
                 Koneksi();
                 conn.Open();
 
-                string query = "SELECT COUNT(*) FROM Mahasiswa";
+                string query = "SELECT COUNT(*) FROM Dosen";
 
                 cmd = new SqlCommand(query, conn);
 
