@@ -90,6 +90,7 @@
             this.txtHasil.Name = "txtHasil";
             this.txtHasil.Size = new System.Drawing.Size(351, 20);
             this.txtHasil.TabIndex = 5;
+            this.txtHasil.TextChanged += new System.EventHandler(this.txtHasil_TextChanged);
             // 
             // Form1
             // 
