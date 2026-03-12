@@ -42,7 +42,7 @@
             // btnConnect
             // 
             this.btnConnect.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnConnect.Location = new System.Drawing.Point(63, 258);
+            this.btnConnect.Location = new System.Drawing.Point(182, 207);
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(75, 23);
             this.btnConnect.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             // btnHitungMhs
             // 
-            this.btnHitungMhs.Location = new System.Drawing.Point(183, 258);
+            this.btnHitungMhs.Location = new System.Drawing.Point(302, 207);
             this.btnHitungMhs.Name = "btnHitungMhs";
             this.btnHitungMhs.Size = new System.Drawing.Size(75, 23);
             this.btnHitungMhs.TabIndex = 1;
@@ -62,17 +62,17 @@
             // 
             // btnHitungMK
             // 
-            this.btnHitungMK.Location = new System.Drawing.Point(459, 258);
+            this.btnHitungMK.Location = new System.Drawing.Point(578, 207);
             this.btnHitungMK.Name = "btnHitungMK";
             this.btnHitungMK.Size = new System.Drawing.Size(75, 23);
             this.btnHitungMK.TabIndex = 2;
-            this.btnHitungMK.Text = "Hitung Mk";
+            this.btnHitungMK.Text = "Hitung MK";
             this.btnHitungMK.UseVisualStyleBackColor = true;
             this.btnHitungMK.Click += new System.EventHandler(this.btnHitungMK_Click);
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(320, 332);
+            this.btnUpdate.Location = new System.Drawing.Point(439, 281);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnUpdate.TabIndex = 3;
@@ -84,7 +84,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(84, 93);
+            this.label1.Location = new System.Drawing.Point(83, 122);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(93, 31);
             this.label1.TabIndex = 4;
@@ -93,15 +93,15 @@
             // 
             // txtHasil
             // 
-            this.txtHasil.Location = new System.Drawing.Point(183, 93);
+            this.txtHasil.Location = new System.Drawing.Point(182, 133);
             this.txtHasil.Name = "txtHasil";
-            this.txtHasil.Size = new System.Drawing.Size(351, 20);
+            this.txtHasil.Size = new System.Drawing.Size(471, 20);
             this.txtHasil.TabIndex = 5;
             this.txtHasil.TextChanged += new System.EventHandler(this.txtHasil_TextChanged);
             // 
             // btnHitungDsn
             // 
-            this.btnHitungDsn.Location = new System.Drawing.Point(320, 258);
+            this.btnHitungDsn.Location = new System.Drawing.Point(439, 207);
             this.btnHitungDsn.Name = "btnHitungDsn";
             this.btnHitungDsn.Size = new System.Drawing.Size(75, 23);
             this.btnHitungDsn.TabIndex = 6;
@@ -111,7 +111,7 @@
             // 
             // btnUpdateMK
             // 
-            this.btnUpdateMK.Location = new System.Drawing.Point(459, 332);
+            this.btnUpdateMK.Location = new System.Drawing.Point(578, 281);
             this.btnUpdateMK.Name = "btnUpdateMK";
             this.btnUpdateMK.Size = new System.Drawing.Size(75, 23);
             this.btnUpdateMK.TabIndex = 7;
@@ -121,7 +121,7 @@
             // 
             // btnInsertProdi
             // 
-            this.btnInsertProdi.Location = new System.Drawing.Point(183, 332);
+            this.btnInsertProdi.Location = new System.Drawing.Point(302, 281);
             this.btnInsertProdi.Name = "btnInsertProdi";
             this.btnInsertProdi.Size = new System.Drawing.Size(75, 23);
             this.btnInsertProdi.TabIndex = 8;
