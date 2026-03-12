@@ -35,7 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtHasil = new System.Windows.Forms.TextBox();
             this.btnHitungDsn = new System.Windows.Forms.Button();
-            this.btnUpdateDsn = new System.Windows.Forms.Button();
+            this.btnUpdateMK = new System.Windows.Forms.Button();
             this.btnInsertProdi = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -109,15 +109,15 @@
             this.btnHitungDsn.UseVisualStyleBackColor = true;
             this.btnHitungDsn.Click += new System.EventHandler(this.btnHitungDsn_Click);
             // 
-            // btnUpdateDsn
+            // btnUpdateMK
             // 
-            this.btnUpdateDsn.Location = new System.Drawing.Point(291, 287);
-            this.btnUpdateDsn.Name = "btnUpdateDsn";
-            this.btnUpdateDsn.Size = new System.Drawing.Size(75, 23);
-            this.btnUpdateDsn.TabIndex = 7;
-            this.btnUpdateDsn.Text = "Update Dsn";
-            this.btnUpdateDsn.UseVisualStyleBackColor = true;
-            this.btnUpdateDsn.Click += new System.EventHandler(this.btnUpdateDsn_Click);
+            this.btnUpdateMK.Location = new System.Drawing.Point(291, 287);
+            this.btnUpdateMK.Name = "btnUpdateMK";
+            this.btnUpdateMK.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdateMK.TabIndex = 7;
+            this.btnUpdateMK.Text = "Update MK";
+            this.btnUpdateMK.UseVisualStyleBackColor = true;
+            this.btnUpdateMK.Click += new System.EventHandler(this.btnHitungMK_Click);
             // 
             // btnInsertProdi
             // 
@@ -135,7 +135,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnInsertProdi);
-            this.Controls.Add(this.btnUpdateDsn);
+            this.Controls.Add(this.btnUpdateMK);
             this.Controls.Add(this.btnHitungDsn);
             this.Controls.Add(this.txtHasil);
             this.Controls.Add(this.label1);
@@ -160,7 +160,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtHasil;
         private System.Windows.Forms.Button btnHitungDsn;
-        private System.Windows.Forms.Button btnUpdateDsn;
+        private System.Windows.Forms.Button btnUpdateMK;
         private System.Windows.Forms.Button btnInsertProdi;
     }
 }
