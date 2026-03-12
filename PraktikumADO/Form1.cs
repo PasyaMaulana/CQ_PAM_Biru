@@ -42,5 +42,10 @@ namespace PraktikumADO
         {
 
         }
+
+        private void btnHitungMK_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
