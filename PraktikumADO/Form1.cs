@@ -160,7 +160,7 @@ namespace PraktikumADO
                 Koneksi();
                 conn.Open();
 
-                string query = "UPDATE Mahasiswa SET Alamat='Yogyakarta' WHERE NIM='23110100001'";
+                string query = "UPDATE MataKuliah SET SKS=4 WHERE KodeMK='IF210101'";
 
                 cmd = new SqlCommand(query, conn);
 
