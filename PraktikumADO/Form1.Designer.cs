@@ -83,14 +83,14 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(84, 93);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 31);
+            this.label1.Size = new System.Drawing.Size(93, 31);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Hasil";
+            this.label1.Text = "HASIL";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtHasil
             // 
-            this.txtHasil.Location = new System.Drawing.Point(174, 93);
+            this.txtHasil.Location = new System.Drawing.Point(183, 93);
             this.txtHasil.Name = "txtHasil";
             this.txtHasil.Size = new System.Drawing.Size(351, 20);
             this.txtHasil.TabIndex = 5;
